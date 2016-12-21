@@ -47,7 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraCradle.cs" />
      <Compile Include="Assets\Scripts\Definitions\PlayerSetupDefinition.cs" />
-     <Compile Include="Assets\Scripts\Interaction.cs" />
+     <Compile Include="Assets\Scripts\Interactions\Highlight.cs" />
+     <Compile Include="Assets\Scripts\Interactions\Interaction.cs" />
      <Compile Include="Assets\Scripts\Interactive.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\RtsManager.cs" />

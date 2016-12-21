@@ -4,7 +4,7 @@ using System.Collections;
 public class Interactive : MonoBehaviour {
 
 	private bool _Selected = false;
-	public bool Selected {get{ _Selected;}}
+	public bool Selected {get{ return _Selected;}}
 	public bool Swap = false;
 
 	public void Select(){
@@ -12,7 +12,7 @@ public class Interactive : MonoBehaviour {
 		foreach(var selection in GetComponents<Interaction>())
 		{
 			selection.Select();
-		}
+		} 
 	}
 	public void Deselect(){
 		_Selected = false;
