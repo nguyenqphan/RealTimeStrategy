@@ -10,7 +10,7 @@ public class RtsManager : MonoBehaviour {
 	public TerrainCollider MapCollider;
 
 
-	public Vector3? ScreenPointToMapPOsition(Vector2 point)
+	public Vector3? ScreenPointToMapPosition(Vector2 point)
 	{
 		var ray = Camera.main.ScreenPointToRay(point);
 		RaycastHit hit;
@@ -36,7 +36,7 @@ public class RtsManager : MonoBehaviour {
 			}
 		}
 	}
-	
+			
 	// Update is called once per frame
 	void Update () {
 	
