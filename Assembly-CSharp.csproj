@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Interactions\Interaction.cs" />
      <Compile Include="Assets\Scripts\Interactive.cs" />
      <Compile Include="Assets\Scripts\MouseManager.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\RightClickNavigation.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\RtsManager.cs" />
